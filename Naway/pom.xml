@@ -13,6 +13,16 @@
         <artifactId>selenium-java</artifactId>
         <version>4.26.0</version>
     </dependency>
+
+            <!-- TestNG Dependency -->
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.7.0</version> <!-- Use the latest stable version -->
+                <scope>test</scope>
+            </dependency>
+
+
     </dependencies>
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
